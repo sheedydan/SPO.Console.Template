@@ -24,7 +24,7 @@ namespace TSC.MPC.RenamingTool.Tests
         [TestMethod()]
         public void RunTest()
         {
-            var args = new string[] { "-s", "https://dansheedy.sharepoint.com/sites/ikdevelopment/", "-u", "dan.sheedy@dansheedy.onmicrosoft.com", "-p", "#TM3PIQ$F#Qp2Db" };
+            var args = new string[] { "-s", "", "-u", "", "-p", "" };
             var actual = Program.Main(args);
             var expected = 0;
 
